@@ -8,16 +8,26 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/dropzone.css">
+  <link rel="stylesheet" href="css/main.css">
+
 
 
 </head>
+
 <body>
+<div class="wrapper">
+  <div class="top-nav">
+    <ul>
+      <li id="undo_but"><a href="#">Undo</a></li>
+      <li id="redo_but"><a href="#">Redo</a></li>
+    </ul>
+  </div>
   <form action="upload.php"  class="dropzone">
     <div class="fallback">
       <input name="file" type="file" multiple />
     </div>
   </form>
-
+</div>
 </body>
 
 <!-- Sripts -->
